@@ -4,16 +4,20 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
-
-.container {
-    /* background-size: 1000px; */
-    width: 46%;
-    margin: 100px auto;
-    height: 600px;
-    background-position: center;
+header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../First-assingment/resources/BannerImage.png');
     background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    margin: 0 auto;
 }
+.container {
+    /* background-size: 1000px; */
+    width: 82%;
+    margin: 50px auto 120px auto;
+    height: 600px;
+}
+    
 
 .container .bannerheading1 {
     text-align: center;
