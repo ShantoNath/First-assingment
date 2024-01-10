@@ -6,32 +6,122 @@
 }
 
 .container {
-    background-size: 1000px;
+    /* background-size: 1000px; */
+    width: 46%;
+    margin: 100px auto;
     height: 600px;
     background-position: center;
-    background-image: url('../First-assingment/resources/BannerImage.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../First-assingment/resources/BannerImage.png');
     background-repeat: no-repeat;
-    background: linear-gradient(to right black blue);
 }
 
 .container .bannerheading1 {
     text-align: center;
     padding-top: 180px;
-    color: #FFF ;
-    font-size: 28px;
+    color: #FFF;
+    font-size: 30px;
     font-style: normal;
-    line-height: 80px;
+    line-height: 90px;
 }
 
 .bannerheading2 {
     color: #FFF;
     text-align: center;
-    font-size: 50px;
-    /* font-style: normal; */
+    font-size: 65px;
     font-weight: 900;
     padding-bottom: 30px;
-    /* line-height: 95px; */
+    line-height: 65px; 
+    letter-spacing: 5px;
 }
+
 .discountsection {
     text-align: center;
+}
+
+.discountpercent {
+    color: #F00;
+    font-size: 88px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 45px;
+}
+
+.discountdetails {
+    color: #F00;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.discountcetagories {
+    color: #070211;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.discountimg {
+    height: 500px;
+}
+
+.party-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../First-assingment/resources/Vectorrr.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    /* align-items: center; */
+    /* text-align: justify; */
+}
+.banner-container{
+    width: 82%;
+    margin: 0 auto;
+
+}
+.full-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.full-banner .party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-bottom: 25px;
+}
+
+.party-text .pera {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    padding-bottom: 49px;
+    line-height: 30px;
+}
+.full-banner .party-img img{
+    width: 300px;
+    vertical-align: middle;
+}
+.party-btn{
+    margin-left: 50px;
+    padding: 10px 20px;
+    background: pink;
+    color: rgb(6, 6, 48);
+    border: none;
+    border-radius: 5px;
 }
