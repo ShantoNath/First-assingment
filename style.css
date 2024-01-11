@@ -197,7 +197,6 @@ header {
 
 .coming-soon-content h6 {
     color: #F00;
-    /* text-align: center; */
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -223,17 +222,21 @@ header {
     font-weight: 400;
     line-height: 28px;
 }
-.coming-soon-img img{
+
+.coming-soon-img img {
     border: 15px solid red;
-    padding: 30px;
+    padding: 35px;
     border-radius: 50%;
 }
+
 .coming-soon-right-content {
-    width: 393px;
+    width: 400px;
     align-items: center;
 }
-.coming-soon-right-content *{
+
+.coming-soon-right-content * {
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .coming-soon-right-content h2 {
@@ -252,5 +255,112 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    border
+}
+
+/* holidays sale section */
+
+.holiday-text {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.holiday-text * {
+    margin-bottom: 30px;
+}
+
+.holiday-text h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.holiday-img {
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.red-img {
+    width: 1320px;
+    margin: 0 auto;
+    bottom: 20px;
+    vertical-align: ;
+}
+
+/* item section */
+.item-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.item-section-text {
+    width: 1320px;
+    margin: 0 auto;
+}
+.item-section-text *{
+    padding-bottom: 26px;
+}
+
+.item-section-text h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.item-section-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.item-section-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.item-section-one {
+    display: flex;
+    width: 1320px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.item-section-two {
+    display: flex;
+    width: 1320px;
+    margin: 20px auto;
+    gap: 20px;
 }
