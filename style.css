@@ -13,35 +13,35 @@ header {
     background-position: center;
     width: 1320px;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 .container {
-    /* background-size: 1000px; */
     width: 82%;
     margin: 50px auto 120px auto;
     height: 600px;
 }
 
-
 .container .bannerheading1 {
     text-align: center;
-    padding-top: 180px;
+    padding-top: 189px;
     color: #FFF;
-    font-size: 30px;
+    font-family: Merriweather;
+    font-size: 35px;
     font-style: normal;
-    line-height: 90px;
 }
 
 .bannerheading2 {
     color: #FFF;
     text-align: center;
-    font-size: 65px;
+    font-family: Merriweather;
+    font-size: 70px;
     font-weight: 900;
-    padding-bottom: 30px;
-    line-height: 65px;
-    letter-spacing: 5px;
+    line-height: 90px;
+    margin-bottom: 100px;
 }
 
+/* discount-section-start */
 .discountsection {
     text-align: center;
 }
@@ -80,9 +80,9 @@ header {
     height: 500px;
 }
 
+/* party section start */
 .party-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../First-assingment/resources/Vectorrr.png');
-    /* background-position: center; */
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -94,7 +94,6 @@ header {
 .banner-container {
     width: 82%;
     margin: 0 auto;
-
 }
 
 .full-banner {
@@ -137,13 +136,12 @@ header {
     border-radius: 5px;
 }
 
-/* address section */
+/* place section start */
 .place-container {
     background-color: #FFEBEB;
     height: 400px;
     width: 1320px;
     margin: 0 auto;
-
 }
 
 .place .place-container {
@@ -157,7 +155,6 @@ header {
     padding-top: 100px;
     margin-bottom: 120px;
     border-radius: 15px;
-
 }
 
 .address-color {
@@ -221,9 +218,10 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    
 }
 
-.coming-soon-img img {
+.coming-soon-img{
     border: 15px solid red;
     padding: 35px;
     border-radius: 50%;
@@ -235,8 +233,8 @@ header {
 }
 
 .coming-soon-right-content * {
-    margin-top: 20px;
-    margin-left: 50px;
+margin-top: 20px;
+margin-left: 50px;
 }
 
 .coming-soon-right-content h2 {
@@ -257,7 +255,12 @@ header {
     line-height: 32px;
 }
 
-/* holidays sale section */
+.happy-ny-img img {
+    position: relative;
+    right: 50px;
+}
+
+/* holidays sale section start */
 
 .holiday-text {
     text-align: center;
@@ -307,10 +310,9 @@ header {
     width: 1320px;
     margin: 0 auto;
     bottom: 20px;
-    vertical-align: ;
 }
 
-/* item section */
+/* item section  start*/
 .item-section {
     margin-top: 120px;
     margin-bottom: 120px;
@@ -367,6 +369,7 @@ header {
     gap: 20px;
 }
 
+/* news letter section start */
 .news-letter {
     margin: 120px 0;
 }
@@ -431,10 +434,9 @@ header {
     font-family: Inter;
     font-size: 20px;
     line-height: normal;
-
 }
 
-/* footer-section */
+/* footer-section start */
 footer {
     width: 1600px;
     height: 609px;
@@ -450,13 +452,15 @@ footer {
     padding-top: 120px;
     padding-bottom: 45px;
 }
-.company-address .phone{
+
+.company-address .phone {
     margin-right: 150px;
 }
-.phone img{
+
+.phone img {
     position: relative;
     top: 5px;
-    right:10px;
+    right: 10px;
 }
 
 .social-link {
@@ -478,7 +482,8 @@ footer {
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 45px;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    ;
 }
 
 footer h6 {
