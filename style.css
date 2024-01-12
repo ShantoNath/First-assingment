@@ -311,15 +311,17 @@ header {
 }
 
 /* item section */
-.item-section{
+.item-section {
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
 .item-section-text {
     width: 1320px;
     margin: 0 auto;
 }
-.item-section-text *{
+
+.item-section-text * {
     padding-bottom: 26px;
 }
 
@@ -363,4 +365,126 @@ header {
     width: 1320px;
     margin: 20px auto;
     gap: 20px;
+}
+
+.news-letter {
+    margin: 120px 0;
+}
+
+.news-letter-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    height: 600px;
+}
+
+.news-letter-container img {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.news-letter-container h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 20px auto;
+}
+
+.news-letter-container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.news-letter form {
+    width: 600px;
+    margin: 48px auto;
+    height: 72px;
+    display: flex;
+}
+
+.news-letter form input {
+    width: 438px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 30px;
+}
+
+.news-letter form button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: normal;
+
+}
+
+/* footer-section */
+footer {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: 0 auto;
+}
+
+.company-address {
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 45px;
+}
+.company-address .phone{
+    margin-right: 150px;
+}
+.phone img{
+    position: relative;
+    top: 5px;
+    right:10px;
+}
+
+.social-link {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1320px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 50px;
+}
+
+.social-link img {
+    padding: 10px;
+}
+
+.all-rights {
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 45px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);;
+}
+
+footer h6 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
 }
